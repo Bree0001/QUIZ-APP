@@ -1,4 +1,5 @@
-const jsQuestions = [
+export const javascriptQuestions = [
+
 {
   question: "Which keyword is used to declare a variable in JavaScript?",
   choices: ["def", "var", "int", "function"],
