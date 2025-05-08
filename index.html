@@ -7,6 +7,34 @@
   <title>Document</title>
 </head>
 <body>
-  <script src="script.js"></script>
+ <section class="first-page-section">
+  <h1>QUIZ CONFIGURATION!</h1>
+  <h2>Select The Category You Want To Start With</h2>
+<div>
+  <button id="general-knowledge-qstns"> General Knowledge Questions </button>
+  <button id="js-qstns"> Javascript Questions </button>
+</div>
+<button id="start-quiz-btn">Start Quiz</button>
+ </section>
+ <section id="question-container">
+  <p id="timer"></p>
+<p id="question-text"></p>
+<div id="choices-section">
+  <button id="choice-a"></button>
+  <button id="choice-b"></button>
+  <button id="choice-c"></button>
+  <button id="choice-d"></button>
+</div>
+<p id="scores"></p>
+<button id="next-question-btn">NEXT</button>
+ </section>
+  <section class="result-section">
+    <p id="result"></p>
+    <button id="go-back">Return to Home Page</button>
+    <button id="move-to-next-category">Move To Next Category</button>
+  </section>
+  <script src="generalKnowledgeQuestions.js" type="module"></script>
+  <script src="javascriptQuestions.js" type="module"></script>
+  <script src="script.js" type="module"></script>
 </body>
 </html>
